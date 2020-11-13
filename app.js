@@ -3,7 +3,7 @@ let rightClick = document.querySelector('.right-arrow');
 let leftClick = document.querySelector('.left-arrow');
 
 
-let picArray = ['pic1.png', 'pic2.png', 'pic3.png', 'pic4.png'];
+let picArray = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg'];
 
 let perClickResponse = 0;
 console.log(`picArray length = ${picArray.length} and perClickResponse = ${perClickResponse}`);
