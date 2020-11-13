@@ -1,0 +1,27 @@
+.container{
+  position: relative;
+  width: 100%;
+ 
+}
+
+.right-arrow{
+  
+  position: absolute;
+  right: 30px;
+  top: 45vh;
+  color: blueviolet
+}
+.left-arrow{
+  position: absolute;
+  left: 30px;
+  top: 45vh;
+  color: blueviolet
+}
+
+.pictures{
+  width: 100%;
+  height: 100vh;
+  background: url(/pictures/pic1.png);
+  background-size: contain;
+  transition: all 1s;
+}
