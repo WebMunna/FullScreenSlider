@@ -5,11 +5,19 @@
 }
 
 .right-arrow{
-  
   position: absolute;
   right: 30px;
   top: 45vh;
-  color: blueviolet
+  color: blueviolet;
+ 
+}
+.right-arrow:active{
+  border-radius: 60%;
+  position: absolute;
+  right: 30px;
+  top: 45vh;
+  color: blueviolet;
+  background-color: rgba(4, 255, 255, 0.527);
 }
 .left-arrow{
   position: absolute;
@@ -17,11 +25,19 @@
   top: 45vh;
   color: blueviolet
 }
+.left-arrow:active{
+  position: absolute;
+  left: 30px;
+  top: 45vh;
+  color: blueviolet;
+  border-radius: 60%;
+  background-color: rgba(4, 255, 255, 0.527);
+}
 
 .pictures{
   width: 100%;
   height: 100vh;
-  background: url(/pictures/pic1.png);
-  background-size: contain;
+  background: url(/pictures/pic1.jpg);
+  background-size: cover;
   transition: all 1s;
 }
